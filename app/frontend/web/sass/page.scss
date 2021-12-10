@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+
+  .myfilers {
+    padding-top: 20px;
+    border: solid;
+  }
+
+  .emailtable {
+    border: solid;
+    padding: 30px;
+
+  }
+
+  .sortby {
+    padding: 10px;
+    float: right;
+  }
+
+  .allemails {
+    flex: 1;
+  }
+}
+
+.header {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  border: solid gray;
+
+}

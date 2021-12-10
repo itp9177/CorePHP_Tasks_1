@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css?family=Georgia|Arial");
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+
+.container {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 35.41%;
+  position: relative;
+}
+@media only screen and (max-width: 560px) {
+  .left {
+    width: 100%;
+  }
+}
+.left .wrap-left {
+  position: absolute;
+  margin: 6.25rem 14.7% 0 14.7%;
+}
+@media only screen and (max-width: 560px) {
+  .left .wrap-left {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+  }
+}
+.left .navbar {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+}
+@media only screen and (max-width: 560px) {
+  .left .navbar {
+    padding: 10px 5.333% 16px 5.333%;
+    width: auto;
+  }
+}
+.left .navlinks {
+  width: 51.8%;
+  vertical-align: middle;
+  align-content: end;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 560px) {
+  .left .navlinks {
+    width: 61.49%;
+  }
+}
+.left .navlinks a {
+  text-decoration: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6A707B;
+  padding-top: 0.9rem;
+}
+@media only screen and (max-width: 560px) {
+  .left .navlinks a {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 0.7rem;
+  }
+}
+.left .logo {
+  position: relative;
+  width: 48.1%;
+  display: inline-flex;
+}
+@media only screen and (max-width: 560px) {
+  .left .logo {
+    width: 38.51%;
+  }
+}
+.left .logo .logowrap {
+  position: relative;
+  background-image: url("/app/frontend/web/img/logo_pineapple-1.svg");
+  background-repeat: no-repeat;
+  width: 60%;
+}
+@media only screen and (max-width: 560px) {
+  .left .logo .logowrap {
+    background-image: url("/app/frontend/web/img/logo_pineapple.svg");
+    height: 40px;
+  }
+}
+.left .logo a {
+  color: #131821;
+}
+
+.subscription {
+  position: relative;
+  padding-top: 14.3125rem;
+}
+@media only screen and (max-width: 560px) {
+  .subscription {
+    flex: 1;
+    background-image: url("/app/frontend/web/img/image_summer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 11.75rem;
+  }
+  .subscription .sub-wrap {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    left: 5.3%;
+    right: 5.3%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 560px) and (max-width: 560px) {
+  .subscription .sub-wrap {
+    padding: 1.875rem 5.6% 1.875rem 5.6%;
+  }
+}
+
+.right {
+  width: 64.58%;
+  position: relative;
+  background-image: url("/app/frontend/web/img/image_summer-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.right .img-wrap {
+  position: absolute;
+  margin: 0;
+}
+@media only screen and (max-width: 560px) {
+  .right {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.filter-green:hover {
+  fill: #ace63c;
+}
+
+.head {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 16px !important;
+  color: #131821;
+}
+@media only screen and (max-width: 560px) {
+  .head {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 10px !important;
+  }
+}
+
+.content {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6A707B;
+}
+@media only screen and (max-width: 560px) {
+  .content {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+label[for=terms] {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 15px;
+  color: #6A707B;
+}
+label[for=terms] span {
+  text-decoration-line: underline;
+  color: #131821;
+}
+label[for=terms] span:hover {
+  color: #4066A5;
+}
+label[for=terms] span:active {
+  color: #233759;
+}
+
+.socilmedia {
+  display: inline-flex;
+}
+
+.icons {
+  width: 100%;
+  background-image: url("webimgic instagram.svg");
+}
+.icons img {
+  border-radius: 50%;
+  border: 2px solid #E3E3E4;
+}
+
+input[type=submit] {
+  background: url("/app/frontend/web/img/ic_arrow.svg") no-repeat center center;
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 10%;
+  position: relative;
+}
+@media only screen and (max-width: 560px) {
+  input[type=submit] {
+    width: 16.61%;
+  }
+}
+
+.emailbox {
+  display: inline-flex;
+  z-index: 1;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 560px) {
+  .emailbox {
+    width: 100%;
+  }
+}
+.emailbox form {
+  position: relative;
+  width: 100%;
+}
+
+.emailbox-email {
+  position: relative;
+  width: 138.5%;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E4;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 4.3rem;
+}
+.emailbox-email:hover {
+  border: 1px solid #4066A5;
+  box-sizing: border-box;
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+.emailbox-email:hover input::placeholder {
+  color: #131821;
+}
+@media only screen and (max-width: 560px) {
+  .emailbox-email {
+    width: 100%;
+    height: 3.75rem;
+  }
+}
+.emailbox-email input::placeholder {
+  position: relative;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6A707B;
+}
+
+input[type=email] {
+  position: relative;
+  width: 86.7%;
+  background: #FFFFFF;
+  border: none;
+  box-sizing: border-box;
+  line-height: normal;
+  padding-left: 38px;
+  padding-top: 2px;
+}
+@media only screen and (max-width: 560px) {
+  input[type=email] {
+    padding-left: 13px;
+  }
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+  padding-right: 15px;
+}
+input[type=checkbox]:checked {
+  background: red;
+  border-radius: 3px;
+}
+
+.bar {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.bar hr {
+  width: 83.33%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 560px) {
+  .bar hr {
+    width: 100%;
+  }
+}
+
+.subtext {
+  position: relative;
+  margin: 0 8.333% 0;
+  margin-bottom: 50px !important;
+}
+.subtext p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media only screen and (max-width: 560px) {
+  .subtext {
+    margin-left: 0;
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+.socilmedia {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.9375rem;
+}
+@media only screen and (max-width: 560px) {
+  .socilmedia {
+    padding-top: 16px;
+    justify-content: normal;
+    margin-left: 10%;
+  }
+}
+.socilmedia .wrap {
+  display: inline-flex;
+}
+
+.vertical-line {
+  width: 4px;
+  background-color: #4066A5;
+}
+
+.icons {
+  margin: 0 10px 0 10px;
+}
+
+.myicon {
+  width: 10px;
+}
+.myicon svg:hover path {
+  fill: #4066A5;
+}
+
+.dot {
+  height: 46px;
+  width: 46px;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  border: 2px solid #E2E3E4;
+}
+.dot svg {
+  z-index: 1;
+  margin: auto;
+}
+.dot svg path {
+  fill: #131821;
+}
+.dot:hover {
+  border: none;
+}
+.dot:active {
+  border: none;
+}
+
+.icon-insta:hover .dot {
+  background: #C13584;
+}
+.icon-insta:hover svg path {
+  fill: #FFFFFF;
+}
+.icon-insta:active .dot {
+  background-color: #8F2762;
+}
+.icon-insta:active svg path {
+  fill: #FFFFFF;
+}
+
+.icon-fb:hover .dot {
+  background: #4267B2;
+}
+.icon-fb:hover svg path {
+  fill: #FFFFFF;
+}
+.icon-fb:active .dot {
+  background-color: #2F4A80;
+}
+.icon-fb:active svg path {
+  fill: #FFFFFF;
+}
+
+.icon-twit:hover .dot {
+  background: #1DA1F2;
+}
+.icon-twit:hover svg path {
+  fill: #FFFFFF;
+}
+.icon-twit:active .dot {
+  background-color: #177FBF;
+}
+.icon-twit:active svg path {
+  fill: #FFFFFF;
+}
+
+.icon-utube:hover .dot {
+  background: #FF0000;
+}
+.icon-utube:hover svg path {
+  fill: #FFFFFF;
+}
+.icon-utube:active .dot {
+  background-color: #CC0000;
+}
+.icon-utube:active svg path {
+  fill: #FFFFFF;
+}
+
+.icon {
+  padding-left: 8.1px;
+  padding-right: 8.1px;
+}
+@media only screen and (max-width: 560px) {
+  .icon {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+  }
+}
+
+.checkbox-wrap {
+  padding-top: 3.3125rem;
+  padding-bottom: 3.0625rem;
+  margin-left: 9.1%;
+  width: 100%;
+}
+@media only screen and (max-width: 560px) {
+  .checkbox-wrap {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  form {
+    width: 100%;
+  }
+}
+.btn {
+  background-color: #FFFFFF;
+  border: none;
+  padding-top: 26px;
+  padding-left: 19%;
+}
+@media only screen and (max-width: 560px) {
+  .btn {
+    padding-top: 22px;
+    padding-left: 2.6%;
+  }
+}
+
+.submit-wrap {
+  position: relative;
+  flex: 1;
+}
+
+.emailbox-email svg path {
+  fill: #131821;
+  opacity: 0.3;
+}
+.emailbox-email:hover svg path {
+  fill: #4066A5;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

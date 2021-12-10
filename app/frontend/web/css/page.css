@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+}
+.content .myfilers {
+  padding-top: 20px;
+  border: solid;
+}
+.content .emailtable {
+  border: solid;
+  padding: 30px;
+}
+.content .sortby {
+  padding: 10px;
+  float: right;
+}
+.content .allemails {
+  flex: 1;
+}
+
+.header {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  border: solid gray;
+}
+
+/*# sourceMappingURL=page.css.map */
